@@ -1,0 +1,22 @@
+Package: newsR
+Title: News API Wrapper
+Version: 0.0.1
+Authors@R: 
+    person(given = "Moh.",
+           family = "Rosidi",
+           role = c("aut", "cre"),
+           email = "moh.rosidi2610@gmail.com")
+Description: Simple wrapper various news api. This packages include function to wrap data from newsapi.org, cnnindonesia, new york times, and many more.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    askpass,
+    purrr,
+    httr,
+    tibble,
+    jsonlite,
+    dplyr,
+    lubridate
