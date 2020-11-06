@@ -106,6 +106,7 @@ news_headlines <- function(keyword = NULL,
     }
   }
 
+
   ## Check sources
   source_vec <- news_sources(api_key = api_key) %>%
     select(id) %>%

@@ -6,8 +6,8 @@ Authors@R:
            family = "Rosidi",
            role = c("aut", "cre"),
            email = "moh.rosidi2610@gmail.com")
-Description: Simple wrapper various news api. This packages include function to wrap data from newsapi.org, cnnindonesia, new york times, and many more.
-License: GPL-3
+Description: Simple wrapper for various news api. This packages include function to wrap data from newsapi.org, cnnindonesia, newscatcher api, and many more.
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
