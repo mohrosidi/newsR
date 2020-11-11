@@ -57,13 +57,6 @@ news_headlines <- function(keyword = NULL,
                 "'country' and/or 'category'."))
   }
 
-  # Check if combination get_all, page, and pageSize valid
-  if (!get_all & (!is.null(page) | !is.null(pageSize))){
-    stop(paste0("'get_all' cannot be used together with ",
-                "'page' and/or 'pageSize'.",
-                "if you specify get_all argument to TRUE, then page and pageSize argument must be NULL"))
-  }
-
   ## Check keyword
   if(!is.null(keyword)){
     if(length(keyword) > 1){
